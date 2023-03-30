@@ -4,12 +4,12 @@ class MathQuestion {
   late String question;
   late double answer;
 
-  MathQuestion(String question, double answer){
+  MathQuestion(String question, double answer) {
     this.question = question;
     this.answer = answer;
   }
 
-  double promptDouble(String promptText){
+  double promptDouble(String promptText) {
     print(promptText);
     double myNum = double.parse(stdin.readLineSync()!);
     return myNum;
@@ -23,14 +23,13 @@ void main() {
     MathQuestion("4 + 2", 6.0)
   ];
 
- int result = 0;
-  for(MathQuestion question in Questions){
+  int result = 0;
+  for (MathQuestion question in Questions) {
     double userAnswer = question.promptDouble(question.question);
-    if(userAnswer == question.answer){
+    if (userAnswer == question.answer) {
       print("Correct!");
       result++;
-    } 
-    else {
+    } else {
       print("Incorrect! answer was ${question.answer}");
     }
   }
