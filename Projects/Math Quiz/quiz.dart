@@ -27,10 +27,10 @@ void main() {
   for (MathQuestion question in Questions) {
     double userAnswer = question.promptDouble(question.question);
     if (userAnswer == question.answer) {
-      print("Correct!");
+      print("CORRECT!");
       result++;
     } else {
-      print("Incorrect! answer was ${question.answer}");
+      print("INCORRECT! answer was ${question.answer}");
     }
   }
   print("You scored ${result} out of ${Questions.length}");
