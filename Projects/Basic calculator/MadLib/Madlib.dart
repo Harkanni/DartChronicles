@@ -23,7 +23,7 @@ void abuse(String name) {
   print("Shut the fuck up ${name}!!");
 }
 
-void main() {
+void greeting() {
   sayHi("Joe Bidden", 30);
   sayHi("Joe Budden", 28);
 
