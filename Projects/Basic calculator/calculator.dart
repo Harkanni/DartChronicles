@@ -7,4 +7,5 @@ void main() {
   double num1 = double.parse(stdin.readLineSync()!);
   print("Enter second double number");
   double num2 = double.parse(stdin.readLineSync()!);
+  print("Done!")
 }
