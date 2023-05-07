@@ -5,6 +5,7 @@ void main() {
   final myUser2 = new User2(name: "Jane Doe", photoUrl: "https://goo.gl");
   myUser2.name = 'Jane Doe';
   print(myUser2.name);
+  print(myUser2.photoUrl)
 }
 
 class User {
