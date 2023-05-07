@@ -8,7 +8,7 @@ void main() {
 }
 
 class User {
-  String name = "John Doe";
+  String name = "Jane Doe";
   String photoUrl = "https://conglo.merate";
 }
 
