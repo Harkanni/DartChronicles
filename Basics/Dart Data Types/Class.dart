@@ -2,7 +2,7 @@ void main() {
   User myUser = new User();
   print(myUser.name);
 
-  final myUser2 = new User2();
+  final myUser2 = new User2(name: "Jane Doe", photoUrl: "https://goo.gl");
   myUser2.name = 'Jane Doe';
   print(myUser2.name);
 }
